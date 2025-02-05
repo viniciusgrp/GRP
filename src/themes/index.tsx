@@ -10,7 +10,8 @@ const lightTheme = createTheme({
       main: "#FFC107", // Amarelo
     },
     background: {
-      default: "linear-gradient(to right, #b921d4, #6e80e6)", // Branco
+      default:
+        "linear-gradient(142deg, rgba(51,205,249,1) 0%, rgba(233,56,229,1) 69%, rgba(40,214,249,1) 100%)",
       paper: "#F5F5F5", // Cinza claro
     },
     text: {
@@ -30,7 +31,8 @@ const darkTheme = createTheme({
       main: "#FF9800", // Laranja
     },
     background: {
-      default: "linear-gradient(to right, #410e61, #17288a)", // Cinza escuro
+      default:
+        "linear-gradient(142deg, rgba(8,3,94,1) 0%, rgba(112,25,110,1) 69%, rgba(18,107,125,1) 100%);", // Cinza escuro
       paper: "#424242", // Cinza um pouco mais claro
     },
     text: {
