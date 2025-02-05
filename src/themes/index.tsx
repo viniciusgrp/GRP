@@ -32,7 +32,7 @@ const darkTheme = createTheme({
     },
     background: {
       default:
-        "linear-gradient(142deg, rgba(8,3,94,1) 0%, rgba(112,25,110,1) 69%, rgba(18,107,125,1) 100%);", // Cinza escuro
+        "linear-gradient(142deg, rgba(8,3,94,1) 0%, rgba(112,25,110,1) 69%, rgba(18,107,125,1) 100%)", // Cinza escuro
       paper: "#424242", // Cinza um pouco mais claro
     },
     text: {

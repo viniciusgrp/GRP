@@ -11,6 +11,7 @@ export const App = () => {
           background: theme.palette.background.default,
           color: theme.palette.text.primary,
           minHeight: "100vh",
+          transition: "background-color 1s, color 0.3s, background 1s",
         }}
       >
         <RootRoutes />
