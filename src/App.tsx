@@ -8,8 +8,9 @@ export const App = () => {
     <BrowserRouter>
       <main
         style={{
-          backgroundColor: theme.palette.background.default,
+          background: theme.palette.background.default,
           color: theme.palette.text.primary,
+          minHeight: "100vh",
         }}
       >
         <RootRoutes />

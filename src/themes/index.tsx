@@ -10,7 +10,7 @@ const lightTheme = createTheme({
       main: "#FFC107", // Amarelo
     },
     background: {
-      default: "#f5f5f5", // Branco
+      default: "linear-gradient(to right, #b921d4, #6e80e6)", // Branco
       paper: "#F5F5F5", // Cinza claro
     },
     text: {
@@ -30,7 +30,7 @@ const darkTheme = createTheme({
       main: "#FF9800", // Laranja
     },
     background: {
-      default: "#303030", // Cinza escuro
+      default: "linear-gradient(to right, #410e61, #17288a)", // Cinza escuro
       paper: "#424242", // Cinza um pouco mais claro
     },
     text: {
